@@ -1,0 +1,95 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+    visibility: hidden;
+}
+
+#loader {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    top: 300px !important;
+    left: 0px !important;
+    display: flex !important;
+    z-index: 999 !important;
+    margin: 0 auto !important;
+}
+
+.loader2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 999;
+    margin: 0 auto;
+}
+
+.loader2t {
+    border: 16px solid #373434;
+    border-radius: 50%;
+    border-top: 16px solid #2EA836;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.loader {
+    border: 16px solid #373434 !important;
+    border-radius: 50% !important;
+    border-top: 16px solid #2EA836 !important;
+    width: 90px !important;
+    height: 90px !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 25% !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: 0 auto !important;
+    -webkit-animation: spin 2s linear infinite !important;
+    /* Safari */
+    animation: spin 2s linear infinite !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loaderImg {
+    margin-top: 70% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .loaderImg {
+        margin-top: initial !important;
+        position: relative !important;
+        height: 100vh !important;
+        display: block !important;
+        width: 100% !important;
+        padding: 0 28px !important;
+    }
+
+    .loaderImg img {
+        margin-top: initial !important;
+        position: absolute !important;
+        width: 85% !important;
+        display: block !important;
+        z-index: 1000000 !important;
+        top: 50% !important;
+        transform: translateY(-60%) !important;
+    }
+}

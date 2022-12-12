@@ -1,0 +1,22 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-key": "off",
+    "jsx-a11y/alt-text": "off",
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export": "off",
+    "@next/next/inline-script-id": "off",
+    "@next/next/no-script-in-document": "off",
+    "react/display-name": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "jsx-a11y/role-has-required-aria-props": "off",
+    "react/no-unknown-property": "off",
+    "@next/next/google-font-display": "off",
+    "@next/next/no-sync-scripts": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@next/next/no-css-tags": "off"
+  }
+}

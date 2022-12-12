@@ -1,0 +1,47 @@
+@media screen and (max-width: 375px){
+    
+.slider-caption {
+background: #000;
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  left: 0;
+  padding: 2% 6%;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Roboto',Arial,sans-serif;
+  border-radius: 0px 0px 10px 10px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important; /* number of lines to show */
+  -webkit-box-orient: vertical !important;
+  }
+  .channel-caption {
+    background: linear-gradient(37deg, #74ff00 0%, #26ac2d 100%) !important;
+    position: absolute;
+    bottom: -100px;
+    margin-bottom: 119px;
+    margin-left: 24px;
+    height: 7%;
+    left: 0;
+    padding: 0% 6%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto',Arial,sans-serif;
+    transform: skew(-20deg);
+  }
+  .nav-transparent {
+    background: rgb(0, 0, 0) ;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.692) 65%) ;
+    transition: background .5s ;
+  }
+  .nav-colored {
+    background: rgb(0, 0, 0) ;
+    transition: background .5s ;
+  }
+}
