@@ -1,6 +1,6 @@
 ## Getting Started
 
-First, pull API and run it. 
+First, pull [API](https://github.com/zimmat/king-james-api) and run it. 
 
 then, run the development server:
 
